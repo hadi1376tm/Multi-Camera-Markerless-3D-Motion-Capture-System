@@ -1,0 +1,13 @@
+default: &id001
+  path_to_save: F:\UoA\_Data
+  dlc_config_paths: []
+  rotations:
+    0: 0
+  parameters:
+    exposure: 0
+    resWidth: 640
+    resHeight: 480
+    framerate: 25
+    codec: DIVX
+  blenderEXEpath:
+saved: *id001
