@@ -1,4 +1,4 @@
-# Multi-camera-Markerless-3D-Motion-capture-System
+# Multi-camera Markerless 3D Motion Capture System
 
 
 This repository contains a Python project designed for Multi-camera Markerless 3D Motion Capture System.
