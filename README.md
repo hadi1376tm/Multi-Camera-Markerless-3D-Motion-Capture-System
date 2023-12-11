@@ -84,5 +84,5 @@ This repository contains a Python project designed for Multi-camera Markerless 3
 
 ## Notes
 
-- Please note that the program's execution time can be significant and may vary based on your system hardware. It could take several minutes to generate the outputs
+- Please note that the program's execution time can be significant and may vary based on your system hardware. It could take several minutes to generate the outputs.
 
