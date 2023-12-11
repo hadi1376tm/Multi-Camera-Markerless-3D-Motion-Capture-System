@@ -65,7 +65,7 @@ This repository contains a Python project designed for Multi-camera Markerless 3
 3. **Directory Setup**:
     - Create a directory named `_Data` in this format: `_Data/[your session name]`.
     - Inside `_Data/[your session name]`, create folders named `CalVideos` and `SyncedVideos`.
-    - Place synchronized calibration videos in the `CalVideos` folder and corresponding subject videos, with the same names in the `SyncedVideos` folder.
+    - Place synchronized calibration videos with charuco board (Acessable in "charuco_board" folder in the repository) in the `CalVideos` folder and corresponding subject videos, with the same names in the `SyncedVideos` folder.
 
 4. **Example Data**:
     - You can download and use the example (also contaning the final outputs) data from [this link](https://drive.google.com/drive/folders/1zCEKPteKGi976wzmMp3WFPF8V88fDnbS?usp=drive_link) and extract it to your system.
