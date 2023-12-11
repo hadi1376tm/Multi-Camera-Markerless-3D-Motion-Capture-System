@@ -1,7 +1,7 @@
 # Multi-camera-Markerless-3D-Motion-capture-System
 
 
-This repository contains a Python project designed for Multi-camera Markerless 3D Motion Capture System. Ensure you have Python 3.7 installed and install the required packages listed in the `requirements.txt` file before running the program.
+This repository contains a Python project designed for Multi-camera Markerless 3D Motion Capture System.
 
 ## Setup and Execution
 
