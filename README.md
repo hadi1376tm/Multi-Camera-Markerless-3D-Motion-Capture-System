@@ -68,7 +68,7 @@ This repository contains a Python project designed for Multi-camera Markerless 3
     - Place synchronized calibration videos in the `CalVideos` folder and corresponding subject videos, with the same names in the `SyncedVideos` folder.
 
 4. **Example Data**:
-    - You can download and use the example (also contaning the final output) data from [this link](https://drive.google.com/drive/folders/1zCEKPteKGi976wzmMp3WFPF8V88fDnbS?usp=drive_link) and extract it to your system.
+    - You can download and use the example (also contaning the final outputs) data from [this link](https://drive.google.com/drive/folders/1zCEKPteKGi976wzmMp3WFPF8V88fDnbS?usp=drive_link) and extract it to your system.
 
     - Execute `start.py` with the provided parameters:
     ```bash
@@ -79,7 +79,7 @@ This repository contains a Python project designed for Multi-camera Markerless 3
           showAnimation=False, plotAxRange=2000, animationStartFrame=0,
           trim_cal_videos=False,smoothing=False)
     ```
-    - You will be prompted to provide the path to the downloaded _Data folder. Set the path and click on "continue".
+    - You will be shown a window to provide the path to the downloaded _Data folder. Set the path and click on "Proceed".
     - The program will start proccesing the videos and provide the final output, including a 3D animation video, 3D coordinates, and angle data saved as CSV files.
 
 ## Notes
