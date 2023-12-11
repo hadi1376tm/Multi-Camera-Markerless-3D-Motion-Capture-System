@@ -5,10 +5,10 @@ These are the parameters to set and their default values:
 
 import main
 
-main.Main(step=4,use_saved_calibration=True,setDataPath = False,sessionID="eceL1",charucoSquareSize=60,
+main.Main(step=2,use_saved_calibration=False,setDataPath = True,sessionID="eceL1",charucoSquareSize=60,
           useMediaPipe=True, runMediaPipe=True,
           the3D_reconstructionConfidenceThreshold= 0.3,
-          mediapipe_model_complexity = 1,select_joints_angle=False,
+          mediapipe_model_complexity = 2,select_joints_angle=False,
           showAnimation=False, plotAxRange=2000, animationStartFrame=0,
           trim_cal_videos=False,smoothing=False)
 
@@ -46,8 +46,6 @@ main.Main(step=4,use_saved_calibration=True,setDataPath = False,sessionID="eceL1
             # Savgol smoothing filter sliding window size, must be odd
         charucoSquareSize = 120,
             # Length of black square side of board in millimeters
-        trim_cal_videos = True,
-            # Create new calibration videos
         calVideoFrameLength = 0.5,
             # What portion of the videos to use in the calibration. -1 uses the whole recording
         animationStartFrame = 0,
@@ -56,6 +54,3 @@ main.Main(step=4,use_saved_calibration=True,setDataPath = False,sessionID="eceL1
             # whether to use a calibration file from a previous session
         )
 """
-
-
-
