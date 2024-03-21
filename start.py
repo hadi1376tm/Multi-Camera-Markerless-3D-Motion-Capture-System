@@ -52,5 +52,6 @@ main.Main(step=4,use_saved_calibration=False,setDataPath = True,sessionID="NINT_
             # from which frame of the video to start the animation
         use_saved_calibration = False,
             # whether to use a calibration file from a previous session
+        calibration_board_type = "Checker" # or "Charuco"
         )
 """

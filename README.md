@@ -7,7 +7,7 @@ This repository contains a Python project designed for Multi-camera Markerless 3
 
 ### Prerequisites
 
-- Python 3.7
+- Python 3.10
 - Installation of required packages:
     ```bash
     pip install -r requirements.txt
@@ -59,6 +59,7 @@ This repository contains a Python project designed for Multi-camera Markerless 3
             # from which frame of the video to start the animation
         use_saved_calibration = False,
             # whether to use a calibration file from a previous session
+		calibration_board_type = "Checker" # or "Charuco"
     )
     ```
 
