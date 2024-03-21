@@ -2,6 +2,7 @@ from pathlib import Path
 import os
 from startup import startup
 from aniposelib.boards import CharucoBoard
+from aniposelib.boards import Checkerboard
 import numpy as np
 from scipy.signal import savgol_filter # for smoothing
 import cv2
@@ -33,6 +34,7 @@ def Main(
         calVideoFrameLength = 0.5, # What portion of the videos to use in the calibration. -1 uses the whole recording
         animationStartFrame = 0, # From which frame of the video to start the animation
         use_saved_calibration = False, # whether to use a calibration file from a previous session
+        calibration_board_type = "Checker" # or "Charuco"
         ):
 
     sessionObject = session.Session()
@@ -67,12 +69,16 @@ def Main(
 
         print('Running ' + str(sessionObject.sessionID) + ' from ' + str(sessionObject.dataFolderPath))
 
-    board = CharucoBoard(7, 5,
-                        square_length = charucoSquareSize,#mm
-                        marker_length = charucoSquareSize*.8,#mm
-                        marker_bits=4, dict_size=250)
-    sessionObject.board = board
 
+    if calibration_board_type == "Checker":
+        board = Checkerboard(5, 4,
+                            square_length = charucoSquareSize)
+        sessionObject.board = board
+    elif calibration_board_type == "Charuco":
+        board = CharucoBoard(7, 5,
+                            square_length = charucoSquareSize,#mm
+                            marker_length = charucoSquareSize*.8,#mm
+                            marker_bits=4, dict_size=250)
     # %% Initialization
 
     sessionObject.initialize(step)

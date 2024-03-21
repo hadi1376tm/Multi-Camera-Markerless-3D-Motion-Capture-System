@@ -5,7 +5,7 @@ These are the parameters to set and their default values:
 
 import main
 
-main.Main(step=2,use_saved_calibration=False,setDataPath = True,sessionID="eceL1",charucoSquareSize=60,
+main.Main(step=4,use_saved_calibration=False,setDataPath = True,sessionID="NINT_1",charucoSquareSize=60,
           useMediaPipe=True, runMediaPipe=True,
           the3D_reconstructionConfidenceThreshold= 0.3,
           mediapipe_model_complexity = 2,select_joints_angle=False,

@@ -249,11 +249,11 @@ def animationmaker(
                 data_fr_mar_xyz[startFrame, idxs, 2],
                 linestyle=lineStyle,
                 linewidth=lineWidth,
-                markerSize=marSize,
-                marker=markerType,
+                markersize=marSize,
                 color=theRGBA,
                 markeredgecolor=markerEdgeColor,
             )[0]
+
         return dict_of_artist_objects
 
     matplot_artist_objects = dict()

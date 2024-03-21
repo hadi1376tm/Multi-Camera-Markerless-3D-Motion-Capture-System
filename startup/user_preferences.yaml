@@ -1,5 +1,5 @@
 default: &id001
-  path_to_save: F:\UoA\_Data
+  path_to_save: C:\IdeaLab\Hadi\Data\MMC\3D_MMC
   dlc_config_paths: []
   rotations:
     0: 0
